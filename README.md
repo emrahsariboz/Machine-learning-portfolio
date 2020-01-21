@@ -24,14 +24,12 @@ Learn Pandas and NumPy, the two most important data analysis libraries that will
 
 ### Learn the following Machine Learning related terms
 
-Supervised Learning | Unsupervised Learning | Semi-supervised Learning | Reinforcement Learning
-Feature Extraction | Feature Selection 
-Noise | Outliers | Garbage Data
-Batch Learning | Online Learning
-Overfitting | Regularization | Underfitting
-Training Dataset | Testing Dataset
-
-
+Supervised Learning | Unsupervised Learning | Semi-supervised Learning | Reinforcement Learning   
+Feature Extraction | Feature Selection    
+Noise | Outliers | Garbage Data   
+Batch Learning | Online Learning   
+Overfitting | Regularization | Underfitting   
+Training Dataset | Testing Dataset   
 
 
 
