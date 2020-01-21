@@ -20,3 +20,5 @@ Learn Pandas and NumPy, the two most important data analysis libraries that will
 ### Go over the basics of PCA
 
 
+### Go over the basic calculus
+One big misconsumption on Machine Learning that discourage people is Calculus. You don't have to be Calculus expert in order to start ML. 
