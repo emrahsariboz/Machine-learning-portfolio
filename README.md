@@ -22,7 +22,13 @@ Git is a powerful version control system that every single person in the STEM fi
 Learn Pandas and NumPy, the two most important data analysis libraries that will help you to deal with the data preprocessing step. Machine Learning is not all about applying the algorithms to the given dataset. Sometimes, you will want to alter the data according to your needs, or even the data you have will include unnecessary information. Thus, these two libraries will help you to prepare the data. In week 3, we will choose a data visualization library. 
 
 
-### Go over the basics of PCA
+### Learn the following Machine Learning related terms
+
+Supervised Learning | Unsupervised Learning | Semi-supervised Learning | Reinforcement Learning
+Feature Extraction | Feature Selection 
+Noise | Outliers | Garbage Data
+Batch Learning | Online Learning
+
 
 
 ### Go over the basic calculus
