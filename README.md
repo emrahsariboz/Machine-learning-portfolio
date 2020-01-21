@@ -1,5 +1,10 @@
 # Machine-learning-roadMap
 
+[Machine Learning is the] field of study that gives computers the ability to learn
+without being explicitly programmed.
+—Arthur Samuel, 1959
+
+
 Repository containing a portfolio of machine learning projects and weekly progress towards becoming better at Machine Learning algorithms.
 
 # Week 1
