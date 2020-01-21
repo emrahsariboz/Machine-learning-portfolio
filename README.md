@@ -28,6 +28,10 @@ Supervised Learning | Unsupervised Learning | Semi-supervised Learning | Reinfor
 Feature Extraction | Feature Selection 
 Noise | Outliers | Garbage Data
 Batch Learning | Online Learning
+Overfitting | Regularization | Underfitting
+Training Dataset | Testing Dataset
+
+
 
 
 
