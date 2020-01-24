@@ -35,3 +35,7 @@ Training Dataset | Testing Dataset
 
 ### Go over the basic calculus
 One big misconsumption on Machine Learning that discourage people is Calculus. You don't have to be Calculus expert in order to start ML. 
+
+# Week 3
+
+### Artificial Neurons and Perceptron
