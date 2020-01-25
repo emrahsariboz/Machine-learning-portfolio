@@ -6,6 +6,7 @@ Created on Thu Jan 23 03:45:01 2020
 """
 
 import random
+import numpy as np
 
 
 class Percepton:
@@ -28,9 +29,6 @@ class Percepton:
             sum_of_weights += self.weights[i] * inputs[i]
         
         return self.sign(sum_of_weights)
-        
     
-
-inputs = [-1, 0.5]
-p = Percepton(inputs)
-print(p.guess(inputs))
+  
+    

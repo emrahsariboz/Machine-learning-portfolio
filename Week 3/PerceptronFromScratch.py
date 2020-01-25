@@ -39,12 +39,12 @@ class Perceptron():
             self.errors_.append(errors)
         return self
     
+    def net_input(self, X):
+        return np.dot(X, self.w_[1:], self.w_[0])
     
+    def predict(self, X):
+        return np.where(self.net_input(X)>=0.0, 1, -1)
     
+        
+        
     
-    
-rgen = np.random.RandomState(1)
-w_ = rgen.normal(loc = 0.0, scale = 0.01,
-                              size = 1)
-
-print(w_)
