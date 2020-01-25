@@ -31,9 +31,6 @@ class Percepton:
         
     
 
-c
-
-
 inputs = [-1, 0.5]
 p = Percepton(inputs)
 print(p.guess(inputs))
