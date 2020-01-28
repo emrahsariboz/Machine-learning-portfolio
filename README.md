@@ -39,3 +39,6 @@ One big misconsumption on Machine Learning that discourage people is Calculus. Y
 # Week 3
 
 ### Artificial Neurons and Perceptron
+
+### Implementing Perceptron algorithm and fitting
+Irish dataset to train it
