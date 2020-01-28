@@ -40,8 +40,16 @@ One big misconsumption on Machine Learning that discourage people is Calculus. Y
 
 ### Go over the Basic Statistics
 
-Mean | Standard Deviation | Variance 
-Covariance | Coefficients | Normal Distribution
+Mean | Standard Deviation | Variance   
+Covariance | Coefficients | Normal Distribution  
+
+### Go over the Basic Linear Algebra
+
+You don't need to be a master in linear algebra. Here are the basic skills that everyone who are interested in ML should know.
+
+Matrix multiplication, Addition and Subtraction   
+Linear Transformation
+Transpose, identiy matrix, inverse 
 
 
 ### Artificial Neurons and Perceptron
