@@ -41,7 +41,7 @@ One big misconsumption on Machine Learning that discourage people is Calculus. Y
 ### Go over the Basic Statistics
 
 Mean | Standard Deviation | Variance   
-Covariance | Coefficients | Normal Distribution  
+Covariance | Correlation | Normal Distribution  
 
 ### Go over the Basic Linear Algebra
 
