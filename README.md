@@ -38,6 +38,12 @@ One big misconsumption on Machine Learning that discourage people is Calculus. Y
 
 # Week 3
 
+### Go over the Basic Statistics
+
+Mean | Standard Deviation | Variance 
+Covariance | Coefficients | Normal Distribution
+
+
 ### Artificial Neurons and Perceptron
 
 ### Implementing Perceptron algorithm and fitting
