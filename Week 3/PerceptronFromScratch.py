@@ -9,8 +9,8 @@ import numpy as np
 
 class Perceptron():
     
-    def __init__(self, lr, n_iter = 50, rnd_state = 1):
-        self.lr = lr
+    def __init__(self, learningRate, n_iter = 50, rnd_state = 1):
+        self.learningRate = learningRate
         self.n_iter = n_iter
         self.rnd_state = rnd_state
     
