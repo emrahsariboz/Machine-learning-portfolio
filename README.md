@@ -57,3 +57,5 @@ Transpose, identiy matrix, inverse
 ### Implementing Perceptron algorithm and fitting Irish dataset to train it
 
 ![SLP](images/single-layer-perceptron-in-tensorflow2.png)
+
+Get yourself familiar with terms: bias, weight, activation function, threshold, convergence.
