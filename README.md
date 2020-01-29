@@ -56,4 +56,4 @@ Transpose, identiy matrix, inverse
 
 ### Implementing Perceptron algorithm and fitting Irish dataset to train it
 
-![SLP](https://github.com/emrahsariboz/Machine-learning-portfolio/tree/master/Week%203/single-layer-perceptron-in-tensorflow2.png)
+![SLP](Week 3/single-layer-perceptron-in-tensorflow2.png)
