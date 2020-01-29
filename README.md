@@ -59,3 +59,7 @@ Transpose, identiy matrix, inverse
 ![SLP](images/single-layer-perceptron-in-tensorflow2.png)
 
 Get yourself familiar with terms: bias, weight, activation function, threshold, convergence.
+
+# Week 4
+
+### Gradient Descent Algorithm
