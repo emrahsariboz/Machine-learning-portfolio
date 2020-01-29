@@ -63,3 +63,4 @@ Get yourself familiar with terms: bias, weight, activation function, threshold, 
 # Week 4
 
 ### Gradient Descent Algorithm
+![SLP](images/gradient_descent.png)
