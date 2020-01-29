@@ -33,7 +33,7 @@ class Perceptron():
             errors = 0
             
             for xi, target in zip(X,y):
-                update = self.eta * (target - self.predict(xi))
+                update = self.learningRate * (target - self.predict(xi))
                 self.w_[1:] += update * xi
                 self.w_[0] += update
                 errors += int(update != 0.0)
@@ -41,7 +41,7 @@ class Perceptron():
         return self
     
     def net_input(self, X):
-        return np.dot(X, self.w_[1:], self.w_[0])
+        return np.dot(X, self.w_[1:]) + self.w_[0]
     
     def predict(self, X):
         return np.where(self.net_input(X)>=0.0, 1, -1)
@@ -66,4 +66,15 @@ plt.scatter(X[50:100, 0], X[50:100, 1],
 plt.xlabel('sepal length [cm]')
 plt.ylabel('petal length [cm]')
 plt.legend(loc = 'upper left')
+plt.show()
+
+
+
+
+ppn = Perceptron(learningRate=0.1,n_iter=10)
+ppn.fit(X, y)
+plt.plot(range(1, len(ppn.errors_) + 1),
+         ppn.errors_, marker ='o')
+plt.xlabel('Epocs')
+plt.ylabel('Number of updates')
 plt.show()
