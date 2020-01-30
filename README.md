@@ -66,4 +66,4 @@ Get yourself familiar with terms: bias, weight, activation function, threshold, 
 ![SLP](images/gradient_descent.png)
 
 
-### 
+### Linear Regression 
