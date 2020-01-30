@@ -64,3 +64,6 @@ Get yourself familiar with terms: bias, weight, activation function, threshold, 
 
 ### Gradient Descent Algorithm
 ![SLP](images/gradient_descent.png)
+
+
+### 
