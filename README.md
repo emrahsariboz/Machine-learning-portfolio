@@ -67,3 +67,5 @@ Get yourself familiar with terms: bias, weight, activation function, threshold, 
 
 
 ### Linear Regression 
+
+Linear Regression, perhaps one of the first supervised machine learning examples, is an algorithm that uses statistics to predict the corresponding output to the given input based on the previous input-output pairs. The goal is to find best fit line.
