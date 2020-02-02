@@ -64,7 +64,7 @@ Get yourself familiar with terms: bias, weight, activation function, threshold, 
 
 ### Gradient Descent Algorithm
 
-Gradient descent is to famous optimization algorithm that can be used in many areas in machine learning such as clustering, logistic and linear regression. In linear regression, we use GD to find optimal line that fits the given poins in 2D. The main idea is to find the best m(slope) and b(y-intercept) that minimizes the objective function!
+Gradient descent is a famous optimization algorithm that can be used in many areas in machine learning such as clustering, logistic and linear regression. In linear regression, we use GD to find optimal line that fits the given poins in 2D. The main idea is to find the best m(slope) and b(y-intercept) that minimizes the objective function!
 
 ![SLP](images/gradient_descent.png)
 
