@@ -75,3 +75,9 @@ Linear Regression, perhaps one of the fundemental supervised machine learning ex
 
 
 
+# Week 5
+
+### Adaptive Linear Neurons
+
+It is an improvement over Perceptron algorithm which uses obj function to update weight rather than a threshold function. 
+
