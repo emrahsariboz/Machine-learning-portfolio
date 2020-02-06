@@ -63,9 +63,9 @@ Get yourself familiar with terms: bias, weight, activation function, threshold, 
 ## Common Question
 ### What is the need of bias in the perceptron algorithm?
 
-Weights define how each feature are effective on the classifier, i.e. it only changes the shapre of your activation function. However, to be able to shift the activation function along axis without effecting steepness of it, we need a term bias. 
+Weights define how each feature is affective on the classifier, i.e., it only changes the shape of your activation function. However, to be able to shift the activation function along the axis without effecting steepness of it, we need a term bias. 
 
-To be able to give an example imagine a simple AND gate. It has a two input (features: x1, x2) and one output (y). Whenver x1 and x2 are 0
+Imagine a situation where both of your features are zero; however, you need an output of 1. No matter which weight you choose, the calculation of the result will be zero. This is where the importance of the bias comes to place. When you have a bias that is always equal to one, you can adjust the weight to get the result of 1. 
 
 # Week 4
 
