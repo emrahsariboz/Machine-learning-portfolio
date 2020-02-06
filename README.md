@@ -60,6 +60,13 @@ Transpose, identiy matrix, inverse
 
 Get yourself familiar with terms: bias, weight, activation function, threshold, convergence.
 
+## Common Question
+### What is the need of bias in the perceptron algorithm?
+
+Weights define how each feature are effective on the classifier, i.e. it only changes the shapre of your activation function. However, to be able to shift the activation function along axis without effecting steepness of it, we need a term bias. 
+
+To be able to give an example imagine a simple AND gate. It has a two input (features: x1, x2) and one output (y). Whenver x1 and x2 are 0
+
 # Week 4
 
 ### Gradient Descent Algorithm
