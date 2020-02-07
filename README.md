@@ -67,6 +67,10 @@ Weights define how each feature is affective on the classifier, i.e., it only ch
 
 Imagine a situation where both of your features are zero; however, you need an output of 1. No matter which weight you choose, the calculation of the result will be zero. This is where the importance of the bias comes to place. When you have a bias that is always equal to one, you can adjust the weight to get the result of 1. 
 
+You can think it as a y-intercept on the line equation: y = mx + b
+
+The weight parameter is 'm' where 'b' stands for the y-intercept of the given x. If you don't have a 'b', your line will always cross the origin which will not be effective in every classifier. To shift the classifier to left or right, we need a y-intercept. 
+
 # Week 4
 
 ### Gradient Descent Algorithm
