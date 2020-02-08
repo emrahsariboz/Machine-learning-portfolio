@@ -92,6 +92,8 @@ Linear Regression, perhaps one of the fundemental supervised machine learning ex
 
 It is an improvement over Perceptron algorithm which uses obj function to update weight rather than a threshold function. 
 
+### Stochastic Gradient Descent
+
 
 
 ![SLP](images/adaline.png)
