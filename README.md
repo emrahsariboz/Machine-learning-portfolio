@@ -92,6 +92,10 @@ Linear Regression, perhaps one of the fundemental supervised machine learning ex
 
 It is an improvement over Perceptron algorithm which uses obj function to update weight rather than a threshold function. 
 
-
-
 ![SLP](images/adaline.png)
+
+
+
+### Stochastic Gradient Descent
+
+It is an optimization technique like Batch Gradient Descent;however, it is more applicable to big dataset. Unlike batch gradient descent, it only picks sample from the given set of features where BGD uses whole dataset. 
