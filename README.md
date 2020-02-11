@@ -90,7 +90,7 @@ Linear Regression, perhaps one of the fundemental supervised machine learning ex
 
 ### Adaptive Linear Neurons
 
-It is an improvement over Perceptron algorithm which uses obj function to update weight rather than a threshold function. 
+It is an improvement over Perceptron algorithm which uses activation function to update the weights where Perceptron uses unit step function.
 
 ![SLP](images/adaline.png)
 
