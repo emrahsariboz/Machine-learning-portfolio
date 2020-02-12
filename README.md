@@ -92,6 +92,8 @@ Linear Regression, perhaps one of the fundemental supervised machine learning ex
 
 It is an improvement over Perceptron algorithm which uses activation function to update the weights where Perceptron uses unit step function.
 
+In perceptron algorithm, weights are updated after ealuating each sample where ADALINE uses gradient of the whole dataset (objective function) to update the weights.
+
 ![SLP](images/adaline.png)
 
 
