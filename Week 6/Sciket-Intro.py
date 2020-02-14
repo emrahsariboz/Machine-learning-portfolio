@@ -9,7 +9,7 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import Perceptron
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import mean_squared_error
 
 iris = datasets.load_iris()
 X = iris.data[:, [2, 3]]
@@ -31,6 +31,6 @@ ppn.fit(X_train_std, y_train)
 
 y_pred = ppn.predict(X_test_std)
 print('Misclasfficed samples : %d' %(y_test != y_pred).sum())
-print('Accuracy %.2f' % accuracy_score(y_test, y_pred))
+print('MSE %.2f' % mean_squared_error(y_test, y_pred))
 
 

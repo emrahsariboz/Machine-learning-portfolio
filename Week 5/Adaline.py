@@ -7,8 +7,10 @@ Created on Tue Feb  4 21:33:55 2020
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+from sklearn.datasets import load_breast_cancer
+from sklearn.metrics import accuracy_score
+
 class AdalineGD():
-    
     def __init__(self, eta = 0.01, n_iter = 50, random_state = 1):
         self.eta = eta
         self.n_iter = n_iter
@@ -34,8 +36,7 @@ class AdalineGD():
         
     def net_input(self, X):
         return np.dot(X, self.w_[1:]) + self.w_[0]
-
-
+    
     def activation(self, X):
         return X
     def predict(self, X):
@@ -44,61 +45,54 @@ class AdalineGD():
 
 
 
-
 class Perceptron():
-    def __init__(self, learning_rate, num_iter= 50, random_state = 1):
+    def __init__(self, learning_rate, epoch= 50, random_state = 1):
         self.learning_rate = learning_rate
-        self.num_iter = num_iter
+        self.epoch = epoch
         self.random_state = random_state
     
     def fit(self, X, y):
         rgen = np.random.RandomState(self.random_state)
         self.w_ = rgen.normal(loc = 0.0, scale = 0.01, size = 1+X.shape[1])
         self.errors_ = []
-        
-        for i in range(self.num_iter):
-            errors = 0
-            
-            for xi, target in zip(X, y):
-                update = self.learning_rate * (target -self.predict(xi))
+        for i in range(self.epoch):
+            error = 0
+            self.prediction_result = [] 
+            for xi, yi in zip(X, y):
+                misclassified = (yi - self.predict(xi))
+                self.prediction_result.append(int(self.predict(xi)))
+                update = self.learning_rate * (misclassified)
                 self.w_[1:] += update * xi
                 self.w_[0]  += update
-                errors += int(update != 0.0)
-            self.errors_.append(errors)
-        return self
+                error += int(misclassified != 0.0)
+            print("Accuracy score on Epoch {} is {} ".format(i, accuracy_score(self.prediction_result, y)))
+            print("The cost at epoch {} is {}".format(i, error))
+            self.errors_.append(error)
+        return -1
     
     def net_input(self, X):
         return np.dot(X, self.w_[1:]) + self.w_[0]
     
     def predict(self, X):
         return np.where(self.net_input(X) >= 0.0, 1, -1)
+        
 
 
-
-ppn = Perceptron(learning_rate=0.1, num_iter=10)
+ppn = Perceptron(learning_rate=0.1, epoch=10)
 
 df = pd.read_csv("irishDataset.csv")
 
 
 y= df.iloc[0:100, 4]
 y = np.where(y == 'setosa', -1, 1)
-X = df.iloc[0:100, [0, 2]].values
 
 
-# select setosa and versicolor
-y = df.iloc[0:100, 4].values
-y = np.where(y == 'setosa', -1, 1)
-
-# extract sepal length and petal length
-X = df.iloc[0:100, [0, 2]].values
+X_irish = df.iloc[0:100, [0, 2]].values
+ppn.fit(X_irish, y)
 
 
 
-fix, ax = plt.subplots(nrows=1, ncols=2, figsize = (10, 4))
+plt.plot(range(1, len(ppn.errors_) + 1), ppn.errors_, marker = 'o')
 
-ada1 = AdalineGD(n_iter=10, eta=0.0001).fit(X,y)
-
-ax[0].plot(range(1, len(ada1.cost_) + 1),
-  np.log10(ada1.cost_), marker = 'o')
-
+plt.show()
 
