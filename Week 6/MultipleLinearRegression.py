@@ -10,8 +10,23 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
 dataset = pd.read_csv("50_Startups.csv")
 
-X = dataset.iloc[:, 0:4]
-y = dataset.iloc[:, [-1]]
+X = dataset.iloc[:, 0:4].values
+y = dataset.iloc[:, [-1]].values
+
+
+#One-hot encoding
+
+
+labelencoder_X = LabelEncoder()
+X[:, 3] = labelencoder_X.fit_transform(X[:,3])
+onehotencoder = OneHotEncoder(categorical_features=[3])
+
+X = onehotencoder.fit_transform(X).toarray()
+
+
+#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
+
