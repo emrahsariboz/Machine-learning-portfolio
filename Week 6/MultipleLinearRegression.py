@@ -13,3 +13,5 @@ from sklearn.metrics import mean_squared_error
 
 dataset = pd.read_csv("50_Startups.csv")
 
+X = dataset.iloc[:, 0:4]
+y = dataset.iloc[:, [-1]]
