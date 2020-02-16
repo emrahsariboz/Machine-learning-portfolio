@@ -101,3 +101,16 @@ In perceptron algorithm, weights are updated after ealuating each sample where A
 ### Stochastic Gradient Descent
 
 It is an optimization technique like Batch Gradient Descent;however, it is more applicable to big dataset. Unlike batch gradient descent, it only picks sample from the given set of features where BGD uses whole dataset. 
+
+
+# Week 6
+
+This week, we will get back to Linear Regression, especially to the Multivariate Regression where we have more than one feature.
+
+## Label Encoder
+Unfortunately, not all the features will have a continious values all the time. In case of categorical feature, we need to conver this into the numbers to be able to use it in our model. Imagine a case where one feature vector contains following countries: 'Turkey' and 'USA'. Obviously, you will not able to able to feed this feature to the model. Using the label encoder, we will represent these countries as 0 or 1. For the sake of example, we can represent Turkey as 0 and USA as 1. 
+
+## One-Hot Encoder
+
+Giving this 0 and 1 representation can mislead the model. It might give the sense of the representation has an some sort of order/strength. To prevent from this problem, we use one-hot encoder, which will seperate the Turkey and USA into two columns. This is what one-hot encoding is. 
+
