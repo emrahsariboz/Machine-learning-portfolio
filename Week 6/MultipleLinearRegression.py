@@ -19,17 +19,19 @@ y = dataset.iloc[:, [-1]].values
 
 
 #One-hot encoding
-
-
 labelencoder_X = LabelEncoder()
 X[:, 3] = labelencoder_X.fit_transform(X[:,3])
 onehotencoder = OneHotEncoder(categorical_features=[3])
 X = onehotencoder.fit_transform(X).toarray()
 
 # Avoiding the Dummy Variable Trap
-
 X = X[:, 1:]
 
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
 
+regressor = LinearRegression()
+regressor.fit(X_train, y_train)
+
+#Predicting the test set results
+y_prediction = regressor.predict(X_test)
