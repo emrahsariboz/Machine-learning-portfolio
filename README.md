@@ -116,11 +116,12 @@ Giving this 0 and 1 representation can mislead the model. It might give the sens
 
 ## Feature Extraction-Backward Elimination
 
-In real life, what do we do when we have garbage? Well, I personally throw it away. As in real life, when we have a dataset to feed the Machine Learning algorithm, we need to separate the garbage features/columns from the good one. Because of garbage in garbage out.    
+In real life, what do we do when we have garbage? Well, I personally throw it away. As in real life, when we have a dataset to feed the Machine Learning algorithm, we need to separate the garbage features/columns from the good one. Because garbage in garbage out.    
 
 
-In machine learning linguistic, this process is called feature extraction. Using the FE, we can remove the data that will have no impact/bad impact on the output of the model. One of the simple ways to do this is Backward Elimination, which uses the hypothesis testing, specifically p-value, to determine what is garbage data.   
+In machine learning linguistic, this process is called feature extraction. Using the FE, we can extract the data that will have no impact/bad impact on the output of the model. One of the simple ways to do this is Backward Elimination, which uses the hypothesis testing, specifically p-value, to determine what is garbage data.   
 
-But why do we need Feature Extraction? Here are a couple of reasons. 
+But why do we need Feature Extraction? 
+Here are a couple of reasons. 
 Decrease the complexity, improved accuracy and performance, and faster training time. 
 
