@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+import numpy as np
 
 dataset = pd.read_csv("50_Startups.csv")
 
@@ -35,3 +36,8 @@ regressor.fit(X_train, y_train)
 
 #Predicting the test set results
 y_prediction = regressor.predict(X_test)
+
+
+#Building the optimal model using Backward Elimination
+import statsmodels.formula.api as sm
+X = np.append(arr = np.ones((50, 1)).astype(int), values = X , axis = 1)
