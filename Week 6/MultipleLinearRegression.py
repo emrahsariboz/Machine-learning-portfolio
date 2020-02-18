@@ -7,7 +7,6 @@ Created on Wed Feb 12 15:45:46 2020
 
 from sklearn.model_selection import train_test_split
 import pandas as pd
-import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 import numpy as np
