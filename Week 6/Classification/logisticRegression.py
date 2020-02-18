@@ -21,8 +21,23 @@ y = dataset.iloc[:, -1]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
 
 sc_X = StandardScaler()
-X_train = sc_X.fit(X_train)
-X_test = sc_X.fit(X_test)
+X_train = sc_X.fit_transform(X_train)
+X_test = sc_X.fit_transform(X_test)
 
 
+#Fitting Logistic Regression to the TrainingSet
+
+from sklearn.linear_model import LogisticRegression
+
+lg = LogisticRegression(random_state=0)
+lg.fit(X_train, y_train)
+
+#Predicting the test set results
+y_prediction = lg.predict(X_test)
+
+
+
+#Making the Confussion Matrix
+from sklearn.metrics import confusion_matrix
+cm = confusion_matrix(y_test, y_prediction)
 
