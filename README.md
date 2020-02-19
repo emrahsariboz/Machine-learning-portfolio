@@ -125,3 +125,4 @@ But why do we need Feature Extraction?
 Here are a couple of reasons. 
 Decrease the complexity, improved accuracy and performance, and faster training time. 
 
+## Logistic Regression
