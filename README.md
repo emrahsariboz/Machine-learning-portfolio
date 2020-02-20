@@ -102,6 +102,10 @@ In perceptron algorithm, weights are updated after ealuating each sample where A
 
 It is an optimization technique like Batch Gradient Descent;however, it is more applicable to big dataset. Unlike batch gradient descent, it only picks sample from the given set of features where BGD uses whole dataset. 
 
+### One-Vs-Rest Strategy
+
+Adaline and Perceptron are binary classifier which can classify 2 classes. Using the one-vs-rest strategy, we can use these binary classifier to a multivariate classifier. 
+
 
 # Week 6
 
