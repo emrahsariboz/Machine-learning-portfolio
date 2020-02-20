@@ -105,6 +105,29 @@ It is an optimization technique like Batch Gradient Descent;however, it is more 
 ### One-Vs-Rest Strategy
 
 Adaline and Perceptron are binary classifier which can classify 2 classes. Using the one-vs-rest strategy, we can use these binary classifier to a multivariate classifier. 
+For example:
+
+If we have 3 classes (A,B,C), train 3 classifiers.
+classifierA => class A = 1, classes (B and C) = -1
+classifierB => class B = 1, classes (A and C) = -1
+classifierC => class C = 1, classes (A and B) = -1
+
+Where classifierA, classifierB, classifierC are the same algorithm (i.e., perceptron)
+
+And to predict the class to which an instance x belongs, it is necessary to predict for each of these n classifiers.
+classifierA.predict (x)
+classifierB.predict (x)
+classifierC.predict (x)
+
+Then, we will take as the class of x where we get the 1.
+
+For example :
+
+classifierA.predict (x) ==> -1
+classifierB.predict (x) ==> 1
+classifierC.predict (x) ==> -1
+
+The class of x is B.
 
 
 # Week 6
