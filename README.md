@@ -163,6 +163,16 @@ Knn, perhaps one of the most straightforward Machine Learning algorithm, is a cl
 
 1) Choose the number of neighbors, 
 2) Get a data point you want to classify, 
-3) Measure the distance between the data point and the neighbors from the closes neighbors
+3) Measure the **distance** between the data point and the neighbors from the closes neighbors
 4) Among these K neighbors, count the number of data points in each category
 5) Assign new instance to the majority category
+
+
+## Distance Metrics
+
+Distance metric is used in both supervised and unsupervised machine learning algorithms to measure the distance between the data point. Using this distance metric, we can assign a new data instances to the corresponding categories. Before getting details of it, we need to understand the norm. 
+
+In linear algebra, norm is a function which takes a vector as an input and produces scalar value that shows how big the vector is. The most commonly used norms are L1 and L2. 
+
+L1 norm, which also known as a Manhattan distance/taxicab norm, is the sum of magnitues of vectors. 
+L2 norm, which also known as a Euclidean norm, is the length of the vector. 
