@@ -152,7 +152,9 @@ But why do we need Feature Extraction?
 Here are a couple of reasons. 
 Decrease the complexity, improved accuracy and performance, and faster training time. 
 
-## Logistic Regression
+## Classification Algorithms
 
+## Logistic Regression
 Logistic Regression is an classification algorithm that produces limited range continious variable using the probability theory(0-1). 
 
+## K-Nearest Neighbor
