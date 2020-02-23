@@ -158,3 +158,11 @@ Decrease the complexity, improved accuracy and performance, and faster training 
 Logistic Regression is an classification algorithm that produces limited range continious variable using the probability theory(0-1). 
 
 ## K-Nearest Neighbor
+
+Knn, perhaps one of the most straightforward Machine Learning algorithm, is a classification algorithm works in the following steps:
+
+1) Choose the number of neighbors, 
+2) Get a data point you want to classify, 
+3) Measure the distance between the data point and the neighbors from the closes neighbors
+4) Among these K neighbors, count the number of data points in each category
+5) Assign new instance to the majority category
