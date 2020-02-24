@@ -168,7 +168,7 @@ Knn, perhaps one of the most straightforward Machine Learning algorithm, is a cl
 5) Assign new instance to the majority category
 
 
-## Distance Metrics
+## Norms and Distance Metrics
 
 Distance metric is used in both supervised and unsupervised machine learning algorithms to measure the distance between the data point. Using this distance metric, we can assign a new data instances to the corresponding categories. Before getting details of it, we need to understand the norm. 
 
