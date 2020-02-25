@@ -174,3 +174,5 @@ Distance metric is used in both supervised and unsupervised machine learning alg
 
 In linear algebra, norm is a function which takes a vector as an input and produces scalar value that shows how big the vector is.In other words, it is a distance between the vector and origin. Using norms, we can define distance metrics. The most commonly used norms are L1 and L2. 
 
+## Week 7
+## Support Vector Machines
