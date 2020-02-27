@@ -176,3 +176,5 @@ In linear algebra, norm is a function which takes a vector as an input and produ
 
 ## Week 7
 ## Support Vector Machines
+
+The goal of the SVM is to find the best line that classifies the data points.
