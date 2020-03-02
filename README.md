@@ -178,3 +178,10 @@ In linear algebra, norm is a function which takes a vector as an input and produ
 ## Support Vector Machines
 
 The goal of the SVM is to find the best line that classifies the data points.
+
+SVM has three cases. The first case is when two classes can be separable with an optimal hyperplane. Pretty boring.
+.
+.
+The second case is when we relax our model and accept some misclassified instances. This is also known as smooth SVM. Meh. .
+.
+The third case is when there is absolutely no way to find an optimal hyper line. In this case, we use kernel tricks to expand the two-dimension into third (Z). When we transform data points to the third dimension, we can find a line to separate them. (Mad respect). Actually, with Radial kernel, even transformation into an infinite dimension possible, but let's not talk about it.
