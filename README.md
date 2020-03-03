@@ -187,4 +187,16 @@ The first case is when two classes can be separable with an optimal hyperplane. 
 The second case is when we relax our model and accept some misclassified instances. This is also known as smooth SVM   
 
 
-The third case is when there is absolutely no way to find an optimal hyper line. In this case, we use kernel tricks to expand the two-dimension into third (Z). When we transform data points to the third dimension, we can find a line to separate them. (Mad respect). Actually, with Radial kernel, even transformation into an infinite dimension possible, but let's not talk about it.   
+The third case is when there is absolutely no way to find an optimal hyper line. In this case, we use kernel tricks to expand the two-dimension into third (Z). When we transform data points to the third dimension, we can find a line to separate them. (Mad respect). Actually, with Radial kernel, even transformation into an infinite dimension possible, but let's not talk about it. 
+
+
+## Week 8
+## Decision Tree
+
+Decision Tree is a supervised learning algorithm that can utilize both prediction and classification. The main goal of the algorithm is to divide until you reach **pure** data points. 
+
+In the form of a tree structure where each node is either:
+(1) a leaf node, indicating a class of instance or   
+(2) a decision node, specifying a test to be carried out on a single attribute value, with one branch and a sub-tree for each possible outcome of the test    
+
+ 
