@@ -201,5 +201,6 @@ In the form of a tree structure where each node is either:
 
 ### Overfitting
 
-In machine learning algorithms, we usually fit the training dataset to the created model. Overfitting occurs when the model works well with the training dataset; however, generates poor performance on the new instances, a.k.a. test dataset. 
- 
+In machine learning algorithms, we usually fit the training dataset to the created model. Overfitting occurs when the model works well with the training dataset; however, generates poor performance on the new instances, a.k.a. test dataset. The signal is the underlying pattern that we want our classifier to learn whereas noise is irrelevant data points. When you classifier learns the noise rather than a signal, it can't do well on the test dataset.   
+
+The decision tree algorithm very likely to get affected by overfitting issue. There are couple techniques to overcome this issue. 
