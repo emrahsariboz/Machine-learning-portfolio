@@ -223,7 +223,7 @@ Bias is the difference between the predicted and actual data points. High bias l
 
 Variance is the variability of model prediction for a given dataset. High variance leads to overfitting issue, which indicated the classifier concentrated more on the training dataset.   
 
-In Machine Learning algorithms, our purpose is to find a sweet spot between them and minimize both bias and variance as low as we can.
+In Machine Learning algorithms, our purpose is to find a sweet spot between them and minimize both bias and variance as low as we can.   
 
 
 ![SLP](images/biasvsvariance.png)
