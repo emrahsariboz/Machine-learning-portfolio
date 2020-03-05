@@ -214,3 +214,16 @@ The size of the tree has great impact on the accuracy of the model. One of the o
         
                 
 ### Pruning
+
+
+### Bias and Variance
+
+
+Bias is the difference between the predicted and actual data points. High bias leads to an underfitting issue, which indicates the simplicity of the model. 
+
+Variance is the variability of model prediction for a given dataset. High variance leads to overfitting issue, which indicated the classifier concentrated more on the training dataset.   
+
+In Machine Learning algorithms, our purpose is to find a sweet spot between them and minimize both bias and variance as low as we can.
+
+
+
