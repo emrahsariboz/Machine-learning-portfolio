@@ -226,4 +226,5 @@ Variance is the variability of model prediction for a given dataset. High varian
 In Machine Learning algorithms, our purpose is to find a sweet spot between them and minimize both bias and variance as low as we can.
 
 
+![SLP](images/biasvsvariance.png)
 
