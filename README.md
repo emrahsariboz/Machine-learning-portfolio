@@ -199,4 +199,18 @@ In the form of a tree structure where each node is either:
 (1) a leaf node, indicating a class of instance or   
 (2) a decision node, specifying a test to be carried out on a single attribute value, with one branch and a sub-tree for each possible outcome of the test    
 
- 
+### Overfitting
+
+In machine learning algorithms, we usually fit the training dataset to the created model. Overfitting occurs when the model works well with the training dataset; however, it produces poor performance on the new instances, a.k.a. test dataset. The signal is the underlying pattern that we want our classifier to learn, whereas noise is irrelevant data points. When your classifier learns the noise rather than a signal, it can't do well on the test dataset.   
+
+The decision tree algorithm very likely to get affected by overfitting issues. There are a couple of techniques to overcome this issue. 
+The size of the tree has great impact on the accuracy of the model. One of the optimization technique used in DT is to find the optimal **max_leaf_nodes** which will help our us to get better accuracy. Here is a useful python script. 
+
+    def get_accuracy(max_leaf_nodes, train_X, val_X, train_y, val_y):
+        model = DecisionTreeClassification(max_leaf_nodes=max_leaf_nodes, random_state=0)
+        model.fit(train_X, train_y)
+        preds_val = model.predict(val_X)
+        acc = accuracy_score(val_y, preds_val)
+        
+                
+### Pruning
