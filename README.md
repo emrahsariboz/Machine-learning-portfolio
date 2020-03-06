@@ -234,11 +234,14 @@ Decision tree is simple and easy to interpret;howerver, once it comes to practic
 Random forest is a supervised ML algorithm that utilizes the ensemble learning method. It creates many decision tree at training and uses majority vote technique to classify the new sample!   
 
 Algorithm Steps
-    1. Build a random bootsrap by drawing sample size of n.   
-    2. At each node
-        2.a Randomly select d features without replacement.
-        2.b Split the node using the features(selected)
-    3. Repeat 1-3 k times
-    4. Use majority of vote to assign a class label
+    1. Build a random bootsrap by drawing sample size of n.    
+    2. At each node    
+        2.a Randomly select d features without replacement.    
+        2.b Split the node using the features(selected)    
+    3. Repeat 1-3 k times    
+    4. Use majority of vote to assign a class label    
+    
+    
+    
     
 
