@@ -11,9 +11,9 @@ from sklearn.datasets import load_breast_cancer
 from sklearn.metrics import accuracy_score
 
 class AdalineGD():
-    def __init__(self, eta = 0.01, n_iter = 50, random_state = 1):
-        self.eta = eta
-        self.n_iter = n_iter
+    def __init__(self, learning_rate = 0.01, epoch = 50, random_state = 1):
+        self.learning_rate = learning_rate
+        self.epoch = epoch
         self.random_state = random_state
     
     def fit(self, X, y):
@@ -22,7 +22,7 @@ class AdalineGD():
         
         self.cost_= []
         
-        for i in range(self.n_iter):
+        for i in range(self.epoch):
             net_input = self.net_input(X)
             output = self.activation(net_input)
             
@@ -35,6 +35,8 @@ class AdalineGD():
         return self
         
     def net_input(self, X):
+        print(np.dot(X, self.w_[1:]) + self.w_[0])
+        print("fsdf")
         return np.dot(X, self.w_[1:]) + self.w_[0]
     
     def activation(self, X):
@@ -78,7 +80,7 @@ class Perceptron():
         
 
 
-ppn = Perceptron(learning_rate=0.1, epoch=10)
+ppn = AdalineGD(0.1, 10)
 
 df = pd.read_csv("irishDataset.csv")
 

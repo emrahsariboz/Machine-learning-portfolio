@@ -7,7 +7,7 @@ Created on Thu Mar  5 22:01:08 2020
 
 from sklearn.model_selection import train_test_split
 import pandas as pd
-import numpy as np
+
 
 
 df = pd.read_csv("Social_Network_Ads.csv")
@@ -15,7 +15,7 @@ df = pd.read_csv("Social_Network_Ads.csv")
 X = df.iloc[:, [2, 3]].values
 y = df.iloc[:, 4].values
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state = 1)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
 
 from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
