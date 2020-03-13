@@ -244,6 +244,14 @@ Random forest is a supervised ML algorithm that utilizes the ensemble learning m
           4. Use majority of vote to assign a class label    
     
     
-    
-    
+
+## Week 9
+## Cross Validation
+
+When we work on the Machine Learning algorithm, we split the dataset (namely X), into training and test samples. Using some portion of the dataset to train and again some portion of the SAME dataset to test the dataset. When we use this approach, the maximum portion we will get to test the model is 20% or 30% which is not the optimal number. We want our model to be solid to the unseen dataset. 
+
+
+Using the cross-validation techniques, we can find the optimal number we can receive using the particular dataset on a particular model. Say you have two classification models and you want to know which one will give the optimal result. Using cross-validation, you can figure out which algorithm gives a better result. 
+
+Some CV techniques are K-cross validation, leave-one-out CV and stratified K-fold CV. 
 
