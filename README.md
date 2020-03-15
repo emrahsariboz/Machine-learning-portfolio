@@ -255,11 +255,11 @@ Using the cross-validation techniques, we can find the optimal accuracy we can r
 
 Some CV techniques are K-cross validation, leave-one-out CV and stratified K-fold CV. 
 
-## Pipelin
+## Pipeline
 
 The purpose of the pipeline is to assemble several steps that can be cross-validated together while setting different parameters. It reduced code size easily by 60% and while increasing the efficiency! Imagine a sitution where you have both numerical and categorical variables (includes NaN values). You need to impute both missing values and apply one hot encoder / dummy variables on the categorical data before feeding your dataset to the algorithm. Doing all of the above steps seperately will make your code ugly and inefficient. 
 
-Here the simple steps you can take.
+Here the simple steps you can take. Example program can be found [at](https://github.com/emrahsariboz/Machine-learning-portfolio/tree/master/Kaggle%20Challenges/Housing%20Prices%20Competition/Pipeline)
 
     categorical_cols = [cname for cname in X_train_full.columns if
                         X_train_full[cname].nunique() < 10 and 
