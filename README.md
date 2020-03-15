@@ -257,4 +257,34 @@ Some CV techniques are K-cross validation, leave-one-out CV and stratified K-fol
 
 ## Pipelin
 
-The purpose of the pipeline is to assemble several steps that can be cross-validated together while setting different parameters. It reduced code size easily by 60% and while increasing the efficiency! 
+The purpose of the pipeline is to assemble several steps that can be cross-validated together while setting different parameters. It reduced code size easily by 60% and while increasing the efficiency! Imagine a sitution where you have both numerical and categorical variables (includes NaN values). You need to impute both missing values and apply one hot encoder / dummy variables on the categorical data before feeding your dataset to the algorithm. Doing all of the above steps seperately will make your code ugly and inefficient. 
+
+Here the simple steps you can take.
+
+    categorical_cols = [cname for cname in X_train_full.columns if
+                        X_train_full[cname].nunique() < 10 and 
+                        X_train_full[cname].dtype == "object"]
+
+     # Select numerical columns
+     numerical_cols = [cname for cname in X_train_full.columns if 
+                    X_train_full[cname].dtype in ['int64', 'float64']]
+
+     #Imputer for Numerical Data
+     numerical_transformer = SimpleImputer(strategy = 'median')
+
+     #Imputer for Categorical Data
+     categorical_transformer = Pipeline(steps = [('imputer', SimpleImputer(strategy = 'most_frequent')),
+                                         ('onehot', OneHotEncoder(handle_unknown = 'ignore'))])
+
+     #bundle preprocessing for numerical and categorical data
+     preprocessor = ColumnTransformer(transformers=[('num', numerical_transformer, numerical_cols),
+                                              ('cat', categorical_transformer, categorical_cols)])
+     
+     #Create Model
+     model = RandomForestRegressor(n_estimators=150, random_state=0)
+     
+     #Train your model
+     clf.fit(X_train, y_train)
+  
+     clf = Pipeline(steps=[('preprocessor', preprocessor),
+                     ('model', model)])
