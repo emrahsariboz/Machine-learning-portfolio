@@ -199,6 +199,7 @@ In the form of a tree structure where each node is either:
 (1) a leaf node, indicating a class of instance or   
 (2) a decision node, specifying a test to be carried out on a single attribute value, with one branch and a sub-tree for each possible outcome of the test    
 
+
 ### Overfitting
 
 In machine learning algorithms, we usually fit the training dataset to the created model. Overfitting occurs when the model works well with the training dataset; however, it produces poor performance on the new instances, a.k.a. test dataset. The signal is the underlying pattern that we want our classifier to learn, whereas noise is irrelevant data points. When your classifier learns the noise rather than a signal, it can't do well on the test dataset.   
