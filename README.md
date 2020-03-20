@@ -289,3 +289,7 @@ Here the simple steps you can take. Example program can be found [at](https://gi
   
      clf = Pipeline(steps=[('preprocessor', preprocessor),
                      ('model', model)])
+                   
+## Classification Evalution Metrics
+
+The most common metric used in classification is **accuracy** which often leads people to misevaluate their models. In real life, the dataset most likely will not be perfectly distributed, i.e., imbalanced dataset.
