@@ -292,4 +292,16 @@ Here the simple steps you can take. Example program can be found [at](https://gi
                    
 ## Classification Evalution Metrics
 
-The most common metric used in classification is **accuracy** which often leads people to misevaluate their models. In real life, the dataset most likely will not be perfectly distributed, i.e., imbalanced dataset.
+The most common metric used in classification is **accuracy** which often leads people to misevaluate their models. In real life, the dataset most likely will not be perfectly distributed, i.e., imbalanced dataset. Imagine a classifier that classifiy either person has fatal desease called **Xkiller** and classifies 5 out of 800 people infected while others not infected. 
+
+When you use this classifier to predict who has the desease or not, your accuracy will be always high altough it will have really small percentrage of correctly identifying the sick person (TP rate). When we have an imbalanced dataset, it is better to use different evaluation metrics.
+
+### Recall == Sensitivity == True Positive Rate 
+What proportion of the actual positives was actually identified correctly?
+
+**TP / TP + FN
+**
+### Precision 
+What proportion of the positive identification was correct? 
+
+**TP / TP + FP**
