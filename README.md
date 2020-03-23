@@ -305,3 +305,6 @@ What proportion of the actual positives was actually identified correctly?
 What proportion of the positive identification was correct? 
 
 **TP / TP + FP**
+
+
+# PCA
