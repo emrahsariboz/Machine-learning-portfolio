@@ -308,3 +308,4 @@ What proportion of the positive identification was correct?
 
 
 # PCA
+The purpose here is to reduce the dimensionality of the dataset.
