@@ -309,3 +309,11 @@ What proportion of the positive identification was correct?
 
 # PCA
 The purpose here is to reduce the dimensionality of the dataset.
+
+# Week 10
+
+### Data Leakage
+The goal of the machine learning is to create a model that performs well in terms of accuracy measurement on unseen data. The problem starts with the word "unseen". We don't have the **unseen data** to train the model and make sure it will give good output. Thus, we perform train-test split which helps us to test the model on 'testing' dataset. The purpose here is to see how well the model is generalized on unseen data. Now, the next level is model production. It is when your model will see the real unseen data.
+
+The problem arises when your model performs poorly on the production level. You might be having 95+ accurcy on both test and training but the accuracy you receive on production level is way below than it. If this is the case, you are a victim of "Data Leakage".
+
