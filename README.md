@@ -299,8 +299,8 @@ When you use this classifier to predict who has the desease or not, your accurac
 ### Recall == Sensitivity == True Positive Rate 
 What proportion of the actual positives was actually identified correctly?
 
-**TP / TP + FN
-**
+**TP / TP + FN**
+
 ### Precision 
 What proportion of the positive identification was correct? 
 
