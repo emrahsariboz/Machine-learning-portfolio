@@ -320,6 +320,7 @@ So, data leakage happens when you train your model with a feature that will not 
 
 ## Dimensionality Reduction
 
-When the dimension of the dataset is large, the speed of the algorithm as well as the outcome quality will be decreasing. Feature selection and Feature Extraction are two mainly used technique to reduce the number of feature in a dataset.The goal of the feature selection is to drop some of the columns which may result in loosing the helpful feature. On the other hand, feature extraction is a technique which aims to reduce the number of dimension while preserving the insight of the 
+When the dimension of the dataset is large, the speed of the algorithm as well as the outcome quality will be decreasing. Feature selection and Feature Extraction are two mainly used technique to reduce the number of feature in a dataset.The goal of the feature selection is to drop some of the columns which may result in loosing the helpful feature. On the other hand, feature extraction is a technique which aims to reduce the number of dimension while preserving the insight of the original dataset by projecting the data onto new feature space. 
 
 
+## PCA, LDA, KPCA 
