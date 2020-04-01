@@ -330,4 +330,12 @@ PCA so far the most widely used dimensionality reduction technique. PCA identifi
 
 To do this, simply take the dot product of standardized X and V (principal components)
 
+How to choose the right number of dimensions using scikit-learn?
+
+    pca = PCA(n_components = 0.95)
+    X_reduced = pca.fit_transform(X_train)
+   
+**The parameter n_components means choose the right dimension that preserves the 95% of the original variance in the data!**
+
+**Another option is to use Elbow method to plot explained_variance_ratio_**
 
