@@ -324,3 +324,10 @@ When the dimension of the dataset is large, the speed of the algorithm as well a
 
 
 ## PCA, LDA, KPCA 
+
+
+PCA so far the most widely used dimensionality reduction technique. PCA identifies the axis that contains the largest amount of the variance. To find these components, it uses SVD, a matrix factorization technique. After you find the first d PCA's of the original dataset (usually represented by k), you can reduce the dimension to d by projecting it to hyperlane that defined by first d principal components. 
+
+To do this, simply take the dot product of standardized X and V (principal components)
+
+
