@@ -324,3 +324,18 @@ When the dimension of the dataset is large, the speed of the algorithm as well a
 
 
 ## PCA, LDA, KPCA 
+
+
+PCA so far the most widely used dimensionality reduction technique. PCA identifies the axis that contains the largest amount of the variance. To find these components, it uses SVD, a matrix factorization technique. After you find the first d PCA's of the original dataset (usually represented by k), you can reduce the dimension to d by projecting it to hyperlane that defined by first d principal components. 
+
+To do this, simply take the dot product of standardized X and V (principal components)
+
+How to choose the right number of dimensions using scikit-learn?
+
+    pca = PCA(n_components = 0.95)
+    X_reduced = pca.fit_transform(X_train)
+   
+**The parameter n_components means choose the right dimension that preserves the 95% of the original variance in the data!**
+
+**Another option is to use Elbow method to plot explained_variance_ratio_**
+
