@@ -316,6 +316,9 @@ The problem arises when your model performs poorly on the production level. You 
 
 So, data leakage happens when you train your model with a feature that will not be available at the time of prediction. Think a situation where you are building a model that will decide whether a person loan request will be accepted or rejected. One of the feature you have is "Number of Late Payment Notification" which is highly correlated with the prediction. When a person applying the load for the first time, the compony will not have this information and simply will try to guess it which might end up really costly for the compony. 
 
+### Paramater Tuning
+Grid search is a brute-force exhaustive search paradigm. We specify a list of values for different hyperparameters. The computer evaluates the model performance for each combination of those to obtain the optimal combination of parameter values. 
+
 # Week 11
 
 ## Dimensionality Reduction
