@@ -342,3 +342,7 @@ How to choose the right number of dimensions using scikit-learn?
 
 **Another option is to use Elbow method to plot explained_variance_ratio_**
 
+
+# Week 12
+## Regression Analysis  
+
