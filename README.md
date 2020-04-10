@@ -346,3 +346,4 @@ How to choose the right number of dimensions using scikit-learn?
 # Week 12
 ## Regression Analysis  
 
+Linear regression is a supervised algorithm that aims to model the relationship between dependent and independent variables by fitting an optimal line. 
