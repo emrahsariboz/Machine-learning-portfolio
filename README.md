@@ -19,7 +19,7 @@ Git is a powerful version control system that every single person in the STEM fi
 # Week 2
 
 ### Data Analyse Libraries 
-Learn Pandas and NumPy, the two most important data analysis libraries that will help you to deal with the data preprocessing step. Machine Learning is not all about applying the algorithms to the given dataset. Sometimes, you will want to alter the data according to your needs, or even the data you have will include unnecessary information. Thus, these two libraries will help you to prepare the data. In week 3, we will choose a data visualization library. 
+Learn Pandas and NumPy, the two most important data analysis libraries that will help you to deal with the data preprocessing step. . Sometimes, you will want to alter the data according to your needs, or even the data you have will include unnecessary information. Thus, these two libraries will help you to prepare the data. In week 3, we will choose a data visualization library. 
 
 
 ### Learn the following Machine Learning related terms
