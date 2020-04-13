@@ -51,6 +51,8 @@ Matrix multiplication, Addition and Subtraction
 Linear Transformation
 Transpose, identiy matrix, inverse 
 
+Learn the basics of matplotlib and seaborn, two most popular data visualization library
+
 
 ### Artificial Neurons and Perceptron
 
