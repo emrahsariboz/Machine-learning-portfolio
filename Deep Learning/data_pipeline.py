@@ -80,3 +80,10 @@ ds = ds_joint.batch(3).repeat(count = 2)
 
 for i, (batch_x, batch_y) in enumerate(ds):
     print('Iteation ', i, '\nBatch_X shape: ', batch_x.shape, ' \n Batch_X :', batch_x.numpy(), '\n Batch_y ', batch_y.numpy())
+    
+#Repeat and batch
+#Batch and repeat
+ds = ds_joint.repeat(count = 2).batch(3)
+
+for i, (batch_x, batch_y) in enumerate(ds):
+    print('Iteation ', i, '\nBatch_X shape: ', batch_x.shape, ' \n Batch_X :', batch_x.numpy(), '\n Batch_y ', batch_y.numpy())
