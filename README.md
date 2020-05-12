@@ -350,12 +350,3 @@ How to choose the right number of dimensions using scikit-learn?
 
 Linear regression is a supervised algorithm that aims to model the relationship between dependent and independent variables by fitting an optimal line. Some regression algorithms are ridge, logistic, decision tree regression and more.
 
-
-
-
-
-
-
-# Tensorflow Introduction
-
-# Convoluional Neural Network
