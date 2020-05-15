@@ -10,7 +10,13 @@ Repository containing a portfolio of machine learning projects and weekly progre
 # Week 1
 
 ### Pick a language, and in my opinion, Python is the best for this. 
-Why? Easy syntax, extensive documentation, great community, availability of resources. 
+Why? Easy syntax, extensive documentation, great community, availability of resources.
+
+You can al
+
+
+
+
 
 ### Create a GitHub profile and learn Git
 
