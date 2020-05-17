@@ -12,7 +12,7 @@ Repository containing a portfolio of machine learning projects and weekly progre
 ### Pick a language, and in my opinion, Python is the best for this. 
 Why? Easy syntax, extensive documentation, great community, availability of resources.
 
-You can al
+You can prefer to work on R as well;howover, R programming has less popularity compare to python in industry. 
 
 
 
