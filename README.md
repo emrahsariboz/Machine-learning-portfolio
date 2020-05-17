@@ -12,7 +12,7 @@ Repository containing a portfolio of machine learning projects and weekly progre
 ### Pick a language, and in my opinion, Python is the best for this. 
 Why? Easy syntax, extensive documentation, great community, availability of resources.
 
-You can prefer to work on R as well;howover, R programming has less popularity compare to python in industry. 
+You can prefer to work on R as well; however, R programming has less popularity compare to python in industry. 
 
 
 
@@ -25,7 +25,7 @@ Git is a powerful version control system that every single person in the STEM fi
 # Week 2
 
 ### Data Analyse Libraries 
-Learn Pandas and NumPy, the two most important data analysis libraries that will help you to deal with the data preprocessing step. . Sometimes, you will want to alter the data according to your needs, or even the data you have will include unnecessary information. Thus, these two libraries will help you to prepare the data. In week 3, we will choose a data visualization library. 
+Learn Pandas and NumPy, the two most important data analysis libraries that will help you to deal with the data preprocessing step. Sometimes, you will want to alter the data according to your needs, or even the data you have will include unnecessary information. Thus, these two libraries will help you to prepare the data. In week 3, we will choose a data visualization library. 
 
 
 ### Learn the following Machine Learning related terms
@@ -40,7 +40,7 @@ Training Dataset | Testing Dataset
 
 
 ### Go over the basic calculus
-One big misconsumption on Machine Learning that discourage people is Calculus. You don't have to be Calculus expert in order to start ML. 
+One big misconsumption on Machine Learning that discourages people is Calculus. You don't have to be a Calculus expert to start ML. 
 
 # Week 3
 
@@ -51,9 +51,9 @@ Covariance | Correlation | Normal Distribution
 
 ### Go over the Basic Linear Algebra
 
-You don't need to be a master in linear algebra. Here are the basic skills that everyone who are interested in ML should know.
+You don't need to be a master in linear algebra. Here are the basic skills that everyone interested in ML should know.
 
-Matrix multiplication, Addition and Subtraction   
+Matrix multiplication, Addition, and Subtraction   
 Linear Transformation
 Transpose, identiy matrix, inverse 
 
@@ -69,7 +69,7 @@ Learn the basics of matplotlib and seaborn, two most popular data visualization 
 Get yourself familiar with terms: bias, weight, activation function, threshold, convergence.
 
 ## Common Question
-### What is the need of bias in the perceptron algorithm?
+### What is the need for bias in the perceptron algorithm?
 
 Weights define how each feature is affective on the classifier, i.e., it only changes the shape of your activation function. However, to be able to shift the activation function along the axis without effecting steepness of it, we need a term bias. 
 
@@ -83,14 +83,14 @@ The weight parameter is 'm' where 'b' stands for the y-intercept of the given x.
 
 ### Gradient Descent Algorithm
 
-Gradient descent is a famous optimization algorithm that can be used in many areas in machine learning such as clustering, logistic and linear regression. In linear regression, we use GD to find optimal line that fits the given poins in 2D. The main idea is to find the best m(slope) and b(y-intercept) that minimizes the objective function!
+Gradient descent is a famous optimization algorithm that can be used in many areas in machine learning such as clustering, logistic and linear regression. In linear regression, we use GD to find an optimal line that fits the given points in 2D. The main idea is to find the best m(slope) and b(y-intercept) that minimizes the objective function!
 
 ![SLP](images/gradient_descent.png)
 
 
 ### Linear Regression 
 
-Linear Regression, perhaps one of the fundemental supervised machine learning examples, is an algorithm that uses statistics to predict the corresponding output to the given input based on the previous input-output pairs. The goal is to find best fit line to the given points. The objective function of the algorithm is sum of squared errors which we try to minimize it.  
+Linear Regression, perhaps one of the fundamental supervised machine learning examples, is an algorithm that uses statistics to predict the corresponding output to the given input based on the previous input-output pairs. The goal is to find the best fit line to the given points. The objective function of the algorithm is the sum of squared errors which we try to minimize.  
 
 
 
