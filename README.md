@@ -179,9 +179,9 @@ Knn, perhaps one of the most straightforward Machine Learning algorithm, is a cl
 
 ## Norms and Distance Metrics
 
-Distance metric is used in both supervised and unsupervised machine learning algorithms to measure the distance between the data point. Using this distance metric, we can assign a new data instances to the corresponding categories. Before getting details of it, we need to understand the norm. 
+The distance metric is used in both supervised and unsupervised machine learning algorithms to measure the distance between the data point. Using this distance metric, we can assign new data instances to the corresponding categories. Before getting details of it, we need to understand the norm. 
 
-In linear algebra, norm is a function which takes a vector as an input and produces scalar value that shows how big the vector is.In other words, it is a distance between the vector and origin. Using norms, we can define distance metrics. The most commonly used norms are L1 and L2. 
+In linear algebra, the norm is a function that takes a vector as an input and produces a scalar value that shows how big the vector is. In other words, it is a distance between the vector and origin. Using norms, we can define distance metrics. The most commonly used norms are L1 and L2. 
 
 ## Week 7
 ## Support Vector Machines
