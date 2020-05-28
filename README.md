@@ -62,7 +62,7 @@ Learn the basics of matplotlib and seaborn, two most popular data visualization 
 
 
 ### Artificial Neurons and Perceptron
-
+Perceptron is the foundation of neural network. It is supervised algorithm used for binary classifications. 
 ### Implementing Perceptron algorithm and fitting Irish dataset to train it
 
 ![SLP](images/single-layer-perceptron-in-tensorflow2.png)
