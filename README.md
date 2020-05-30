@@ -144,15 +144,15 @@ The class of x is B.
 This week, we will get back to Linear Regression, especially to the Multivariate Regression where we have more than one feature.
 
 ## Label Encoder
-Unfortunately, not all the features will have a continious values all the time. In case of categorical feature, we need to conver this into the numbers to be able to use it in our model. Imagine a case where one feature vector contains following countries: 'Turkey' and 'USA'. Obviously, you will not able to able to feed this feature to the model. Using the label encoder, we will represent these countries as 0 or 1. For the sake of example, we can represent Turkey as 0 and USA as 1. 
+Unfortunately, not all the features will have a continuous value all the time. In the case of a categorical feature, we need to convert this into the numbers to be able to use it in our model. Imagine a case where one feature vector contains the following countries: 'Turkey' and 'USA'. You will not able to able to feed this feature to the model. Using the label encoder, we will represent these countries as 0 or 1. For the sake of example, we can represent Turkey as 0 and the USA as 1. 
 
 ## One-Hot Encoder
 
-Giving this 0 and 1 representation can mislead the model. It might give the sense of the representation has an some sort of order/strength. To prevent from this problem, we use one-hot encoder, which will seperate the Turkey and USA into two columns. This is what one-hot encoding is. 
+Giving this 0 and 1 representation can mislead the model. It might give the sense of the representation has some sort of order/strength. To prevent this problem, we use a one-hot encoder, which will separate Turkey and the USA into two columns. This is what one-hot encoding is. 
 
 ## Feature Extraction-Backward Elimination
 
-In real life, what do we do when we have garbage? Well, I personally throw it away. As in real life, when we have a dataset to feed the Machine Learning algorithm, we need to separate the garbage features/columns from the good one. Because garbage in garbage out.    
+In real life, what do we do when we have garbage? Well, I throw it away. As in real life, when we have a dataset to feed the Machine Learning algorithm, we need to separate the garbage features/columns from the good one. Because of garbage in garbage out.    
 
 
 In machine learning linguistic, this process is called feature extraction. Using the FE, we can extract the data that will have no impact/bad impact on the output of the model. One of the simple ways to do this is Backward Elimination, which uses the hypothesis testing, specifically p-value, to determine what is garbage data.   
@@ -164,7 +164,7 @@ Decrease the complexity, improved accuracy and performance, and faster training 
 ## Classification Algorithms
 
 ## Logistic Regression
-Logistic Regression is an classification algorithm that produces limited range continious variable using the probability theory(0-1). 
+Logistic Regression is a classification algorithm that produces a limited range continuous variable using the probability theory(0-1). 
 
 ## K-Nearest Neighbor
 
