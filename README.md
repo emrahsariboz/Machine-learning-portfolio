@@ -14,10 +14,6 @@ Why? Easy syntax, extensive documentation, great community, availability of reso
 
 You can prefer to work on R as well; however, R programming has less popularity compare to python in industry. 
 
-
-
-
-
 ### Create a GitHub profile and learn Git
 
 Git is a powerful version control system that every single person in the STEM field should learn. GitHub is a way of showing the world you know something. Simply writing, I know Python will not be enough for companies. You have to prove you know the Python by showing your projects. 
