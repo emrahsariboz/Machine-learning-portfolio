@@ -80,6 +80,8 @@ You can think it as a y-intercept on the line equation: y = mx + b
 
 The weight parameter is 'm' where 'b' stands for the y-intercept of the given x. If you don't have a 'b', your line will always cross the origin which will not be effective in every classifier. To shift the classifier to left or right, we need a y-intercept. 
 
+New question is how do we know whether the result of the above calculation will be Yes or Not. In other words, how do we decide which neurons will be fired?
+
 # Week 4
 
 ### Gradient Descent Algorithm
